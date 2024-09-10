@@ -1,14 +1,16 @@
-/* Wen Qian Zheng
+/* Wen Qian ZHeng
 Lab 1
 September 10th, 2024*/
 
-#include <iostream>
-using namespace std; 
+#include <iostream> // necessity
 
-int main() 
-{
-cout << "##################################################################################" << endl;
-cout << "#                                                                                #" << endl;
+using namespace std; // shorten our cout statements! make sure to have semicolon
+
+int main() // ALL C+ programs require the function main
+{ // opening bracket for the code
+
+cout << "##################################################################################" << endl; // endl in C++ is a manipulator = used to insert a newline character
+cout << "#                                                                                #" << endl; // (move cursor to the next line)
 cout << "# Ways to access the Task Manager on your Windows computer:                      #" << endl;
 cout << "#                                                                                #" << endl;
 cout << "#        Press the key combination Ctrl + Shift + Escape                         #" << endl;
@@ -19,7 +21,7 @@ cout << "#        Type “Task Manager” in the Windows Start menu search      
 cout << "#                                                                                #" << endl;
 cout << "##################################################################################" << endl; 
 
-    return 0;
+    return 0; // exit value. must end with return 0
 }  
 
 /*
